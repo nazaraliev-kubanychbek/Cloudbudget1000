@@ -1,0 +1,70 @@
+.footer {
+  height: 435px;
+  background-color: $primwhite;
+  display: flex;
+  align-items: center;
+  &__title {
+    @include font(18px, 22px);
+    font-style: normal;
+    font-weight: bold;
+    color: $primblack;
+    margin-bottom: 30px;
+  }
+
+  &__address {
+    @include font(12px, 150%);
+    font-style: normal;
+    font-weight: normal;
+    color: $primblack;
+    width: 170px;
+  }
+
+  &__service {
+    @include font(12px, 160%);
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+    list-style-type: none;
+  }
+
+  &__info {
+    @include font(12px, 14px);
+    font-style: normal;
+    font-weight: normal;
+    color: $primblack;
+    text-decoration: none;
+    display: block;
+
+  }
+  &__tel{
+    @include font(12px, 14px);
+    font-style: normal;
+    font-weight: normal;
+    color: #121212;
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+&__links{
+  display: flex;
+  column-gap: 10px;
+}
+
+  &__copyright{
+    @include font(12px, 14px);
+    font-style: normal;
+    font-weight: normal;
+    color: $primblack;
+    margin-top: 70px;
+  }
+
+  &__link{
+    color: $primblack;
+    transition: all .5s;
+    &:hover{
+      color: $primred;
+      transform: scale(1.5);
+    }
+  }
+
+}

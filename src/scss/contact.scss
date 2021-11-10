@@ -1,0 +1,94 @@
+.contact{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  &__content{
+
+    &-title{
+      @include font(36px, 43px);
+      font-style: normal;
+      font-weight: 500;
+    }
+    &-text{
+      @include font(14px, 140%);
+      font-style: normal;
+      font-weight: normal;
+      margin-top: 70px;
+      width: 430px;
+    }
+  }
+
+  &__form{
+   &-name2{
+     margin-left: 48px;
+   }
+    &-name{
+      width: 45%;
+      border: 1px solid #333333;
+      box-sizing: border-box;
+      border-radius: 6px;
+      padding: 20px 130px 20px 30px;
+      outline: none;
+      &::placeholder{
+        @include font(16px, 19px);
+        font-style: normal;
+        font-weight: normal;
+        color: rgba(19, 39, 67, 0.5);
+      }
+    }
+
+    &-number{
+      margin: 25px 0;
+      width: 100%;
+      border: 1px solid #333333;
+      border-radius: 6px;
+      padding: 20px 400px 20px 30px;
+      outline: none;
+      &::placeholder{
+        @include font(16px, 19px);
+        font-style: normal;
+        font-weight: normal;
+        color: rgba(19, 39, 67, 0.5);
+      }
+    }
+    &-select{
+      width: 100%;
+      border: 1px solid #333333;
+      border-radius: 6px;
+      padding: 20px 382px 20px 30px;
+      @include font(16px, 19px);
+      font-style: normal;
+      font-weight: normal;
+      color: rgba(19, 39, 67, 0.5);
+      outline: none;
+      option{
+        @include font(16px, 19px);
+        font-style: normal;
+        font-weight: normal;
+        color: rgba(19, 39, 67, 0.5);
+      }
+    }
+    &-button{
+      border-radius: 6px;
+      background-color: $primred;
+      padding: 17px 35px;
+      @include font(14px, 17px);
+      font-style: normal;
+      font-weight: normal;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-top: 25px;
+      border: 1px solid transparent;
+      transition: all .5s;
+      cursor: pointer;
+      &:hover{
+        color: $primred;
+        background-color: #ffffff;
+        border: 1px solid $primred;
+
+      }
+    }
+  }
+
+
+}

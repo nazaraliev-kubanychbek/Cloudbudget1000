@@ -1,0 +1,533 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+  .features {
+    &__content {
+      &-img {
+        width: 300px;
+      }
+
+      &-cart {
+        width: 270px;
+        padding: 0;
+      }
+
+    }
+  }
+
+  .contact {
+    &__form {
+      &-name {
+        padding-right: 90px;
+      }
+
+      &-name2 {
+        margin-left: 9%;
+      }
+
+      &-number, .contact__form-select {
+        padding-right: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    max-width: 850px;
+  }
+  .hero {
+    height: 90vh;
+
+    &__title {
+      font-size: 62px;
+    }
+
+    &__text {
+      font-size: 20px;
+      width: 430px;
+    }
+  }
+
+  .overview{
+    &__title{
+      font-size: 25px;
+      line-height: 33px;
+    }
+    &__text{
+      font-size: 11px;
+      width: 380px;
+    }
+    &__video{
+      &-circle{
+        width: 60px;
+        height: 60px;
+      }
+      &-img{
+        height: 250px;
+      }
+    }
+    &__link{
+      font-size: 12px;
+    }
+  }
+
+  .features{
+    height: 450px;
+    &__title{
+      margin-bottom: 32px;
+      margin-top: -150px;
+      font-size: 25px;
+    }
+    &__content{
+      &-img{
+        width: 250px;
+      }
+      &-title{
+        font-size: 14px;
+        line-height: 17px;
+        width: 182px;
+      }
+      &-text{
+        width: 182px;
+        font-size: 11px;
+      }
+      &-cart{
+        width: 220px;
+        row-gap: 10px;
+        height: 155px;
+      }
+    }
+  }
+
+  .technology{
+
+    &__title{
+      font-size: 25px;
+    }
+  }
+  .contact{
+    &__content{
+      &-text{
+        width: 345px;
+      }
+    }
+    &__form{
+      &-name, &-number, .contact__form-select{
+        padding-right: 0;
+      }
+      &-name2{
+        margin-left: 8%;
+      }
+    }
+  }
+
+
+  .slider__description-text{
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 910px){
+  .container{
+    max-width: 700px;
+  }
+  .hero{
+    height: 75vh;
+    row-gap: 20px;
+    &__title{
+      font-size: 50px;
+    }
+    &__text{
+      font-size: 15px;
+      width: 310px;
+    }
+  }
+.header{
+  height: 80px;
+  .dd-selected-image, .dd-option-image{
+    height: 30px;
+    width: 30px;
+  }
+}
+
+
+  .overview{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    &__text{
+      width: 320px;
+    }
+    &__video-img{
+      height: 210px;
+    }
+  }
+
+  .features{
+    height: 380px;
+    &__title{
+      margin-top: -100px;
+      margin-bottom: 20px;
+    }
+    &__content{
+      &-img{
+        width: 206px;
+      }
+      &-cart{
+        width: 180px;
+        row-gap: 4px;
+        height: 127px;
+      }
+      &-title{
+        font-size: 11px;
+        line-height: 14px;
+        width: 155px;
+      }
+      &-text{
+        width: 162px;
+        font-size: 10px;
+      }
+      &-link{
+        font-size: 10px;
+      }
+    }
+  }
+
+  .technology{
+    height: 380px;
+    &__title{
+      margin-bottom: 6px;
+    }
+    &__content{
+      &-num{
+        font-size: 70px;
+      }
+      &-icon{
+        width: 50px;
+        height: 50px;
+      }
+      &-icon4{
+        width: 41px;
+        height: 41px;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .slider{
+    height: 380px;
+    &__description{
+      row-gap: 20px;
+      &-title{
+        font-size: 30px;
+        width: 320px;
+      }
+      &-text{
+        width: 320px;
+      }
+    }
+  }
+
+  .contact{
+    height: 380px;
+    &__content{
+      &-title{
+        font-size: 30px;
+        line-height: 20px;
+      }
+      &-text{
+        width: 300px;
+      }
+    }
+
+    &__form{
+      input, select{
+        &::placeholder{
+          font-size: 14px;
+        }
+        padding: 14px 0 14px 13px;
+      }
+      &-button{
+        padding: 15px 17px;
+        font-size: 13px;
+      }
+    }
+  }
+
+
+  .footer{
+    .row{
+      row-gap: 25px;
+    }
+    .col-3{
+      width: 50%;
+    }
+  }
+  .mobile-btn{
+    margin-right: -80px;
+    width: 55px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .show-mobile-btn span{
+    background: transparent;
+  }
+  .show-mobile-btn span::before,
+  .show-mobile-btn span::after{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .show-mobile-btn span::before{
+    transform: rotate(45deg);
+  }
+  .show-mobile-btn span::after{
+    transform: rotate(-45deg)
+  }
+  .header__nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(237, 76, 92, 0.8);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -100%;
+    transition: .7s;
+  }
+  .show-header__nav{
+    right: 0;
+  }
+  .show-header__link{
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    width: 170px;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 710px) {
+
+  .container {
+    max-width: 300px;
+  }
+
+  .header {
+    height: 55px;
+    &__logo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+
+      &-title {
+        font-size: 14px;
+      }
+
+      &-icon {
+        height: 18px;
+      }
+
+      & {
+        height: 20px;
+      }
+    }
+
+    &__form {
+      position: relative;
+      &-button {
+        font-size: 9px;
+        line-height: 7px;
+        padding: 7px 13px;
+      }
+      &-block{
+        position: absolute;
+        top: -52px;
+      }
+      &-button{
+        position: absolute;
+        top: 3px;
+        left: 10px;
+      }
+    }
+
+    .dd-select {
+      width: 85px !important;
+    }
+
+    .dd-container {
+      width: 70px !important;
+    }
+
+    .dd-options {
+      width: 70px !important;
+    }
+    .dd-selected-image{
+      height: 25px;
+      width: 25px;
+    }
+  }
+  .mobile-btn {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+  .hero{
+    height: 40vh;
+    row-gap: 5px;
+    &__title{
+      font-size: 20px;
+      margin-bottom: -20px;
+    }
+    &__text{
+      font-size: 11px;
+      width: 280px;
+    }
+    &__button{
+      font-size: 9px;
+      line-height: 12px;
+      padding: 10px 25px;
+    }
+  }
+
+  .overview{
+    height: 250px;
+    &__title{
+      font-size: 12px;
+      line-height: 18px;
+    }
+    &__content, &__video{
+      row-gap: 5px;
+      height: 250px;
+    }
+    &__video{
+      &-circle {
+        width: 25px;
+        height: 25px;
+      }
+      &-play{
+        font-size: 8px;
+      }
+      &-img{
+        height: 100px;
+      }
+    }
+    &__text{
+      width: 135px;
+      font-size: 8px;
+    }
+    &__link{
+      font-size: 8px;
+    }
+  }
+
+  .features{
+    height: 750px;
+    &__title{
+      margin-top: -67px;
+      margin-bottom: -76px;
+    }
+    .col-4{
+      width: 100%;
+      margin-top: 80px;
+    }
+    &__content{
+      text-align: center;
+    }
+  }
+
+  .technology{
+    height: 500px;
+    .col-3{
+      width: 50%;
+      margin-top: 80px;
+    }
+    &__title{
+      margin-bottom: -100px;
+      margin-top: -50px;
+    }
+    &__content{
+      &-title{
+        font-size: 16px;
+      }
+    }
+  }
+
+  .slider{
+    height: 500px;
+    .col-6{
+      width: 100%;
+      margin-top: 10px;
+    }
+    &__description{
+
+      &-title{
+        font-size: 19px;
+        width: 247px;
+        line-height: 26px;
+      }
+      &-text{
+        font-size: 11px;
+        line-height: 138%;
+        width: 247px;
+      }
+    }
+  }
+
+  .contact{
+    height: 500px;
+    .col-6{
+      width: 100%;
+      margin-top: 10px;
+    }
+    &__content{
+
+      &-text{
+        width: 285px;
+      }
+    }
+    &__form{
+      &-name{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+      }
+      &-number{
+        margin: 15px 0;
+      }
+    }
+  }
+
+  .footer{
+
+    &__address{
+      width: 130px;
+    }
+    img{
+      width: 138px;
+    }
+    &__copyright{
+      margin-top: 37px;
+    }
+  }
+
+}
